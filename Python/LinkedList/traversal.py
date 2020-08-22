@@ -34,7 +34,6 @@ class linkedList:
                 print(itr.val,node_value)
                 previous = itr
             else:
-                # print("{}+{}".format(itr.val,node_value))
                 previous.next = itr.next
                 del itr
                 return
