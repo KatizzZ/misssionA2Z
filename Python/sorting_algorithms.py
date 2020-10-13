@@ -99,12 +99,7 @@ if __name__ == "__main__":
     sort = solutionSort()
     arr:list = random.sample(range(-1000000, 3000000), 100)
     # arr = [6,7,9,7,2,5,5,6,8,0,2,-1,-3,-1,5,10]
-    # arr = [6,1,7,5,4,8,9,0,3,10,2,-1,4,6,2,5,8,9,2,4,4,7,1,790,1,3,7,2,6]
     # arr.sort()
-    # print(sort.selectionSort(arr.copy()))
-    # print(sort.bubbleSort(arr.copy()))
-    # print(sort.insertionSort(arr.copy()))
-    # print(sort.mergeSort(arr.copy()))
 
     # sort.selectionSort(arr.copy())
     # sort.bubbleSort(arr.copy())
